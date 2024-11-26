@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Superheroes Lookup</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superhero Search</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Superheroes Lookup</h1>
-    <button id="searchBtn">Search</button>
-    <script src="app.js"></script>
+  <div id="container">
+    <h1>Superhero Search</h1>
+    <input type="text" id="search-input" placeholder="Enter superhero name or alias" />
+    <button id="search-button">Search</button>
+    <div id="result">
+      <h3>Search Results</h3>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
